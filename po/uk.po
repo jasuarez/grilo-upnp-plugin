@@ -1,0 +1,41 @@
+# Ukrainian translation for grilo-upnp-plugin.
+# Copyright (C) 2014 grilo-plugins's COPYRIGHT HOLDER
+# This file is distributed under the same license as the grilo-plugins package.
+# Mykola Tkach <Stuartlittle1970@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grilo-upnp-plugin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-17 15:55+0200\n"
+"PO-Revision-Date: 2014-02-06 19:02+0300\n"
+"Last-Translator: Mykola Tkach <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../src/grl-upnp.c:54
+#, c-format
+msgid "A source for browsing the UPnP server '%s'"
+msgstr "Джерело для огляду сервера UPnP «%s»"
+
+#: ../src/grl-upnp.c:1314 ../src/grl-upnp.c:1371
+msgid "Failed to browse"
+msgstr "Не вдалося виконати огляд"
+
+#: ../src/grl-upnp.c:1434
+msgid "Failed to query"
+msgstr "Не вдалося виконати запит"
+
+#: ../src/grl-upnp.c:1484
+msgid "Failed to resolve"
+msgstr "Не вдалося розв'язати"
+
+#: ../src/grl-upnp.c:1553
+#, c-format
+msgid "Unable to listen for changes in %s"
+msgstr "Неможливо відстежити зміни у %s"

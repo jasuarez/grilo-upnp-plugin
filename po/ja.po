@@ -1,0 +1,41 @@
+# Japanese translation for grilo-upnp-plugin.
+# Copyright (C) 2013 grilo-plugins's COPYRIGHT HOLDER
+# This file is distributed under the same license as the grilo-plugins package.
+# Nishio Futoshi <fut_nis@d3.dion.ne.jp>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grilo-upnp-plugin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-17 13:03+0200\n"
+"PO-Revision-Date: 2013-09-15 10:21+0900\n"
+"Last-Translator: Nishio Futoshi <fut_nis@d3.dion.ne.jp>\n"
+"Language-Team: 日本語 Japanese <gnome-translation@gnome.gr.jp>>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../src/grl-upnp.c:54
+#, c-format
+msgid "A source for browsing the UPnP server '%s'"
+msgstr "UPnP サーバー '%s' を閲覧するソース"
+
+#: ../src/grl-upnp.c:1314 ../src/grl-upnp.c:1371
+msgid "Failed to browse"
+msgstr "閲覧に失敗しました"
+
+#: ../src/grl-upnp.c:1434
+msgid "Failed to query"
+msgstr "要求に失敗しました"
+
+#: ../src/grl-upnp.c:1484
+msgid "Failed to resolve"
+msgstr "解決できませんでした"
+
+#: ../src/grl-upnp.c:1553
+#, c-format
+msgid "Unable to listen for changes in %s"
+msgstr "%s の変更を検出できません"

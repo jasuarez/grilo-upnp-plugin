@@ -1,0 +1,43 @@
+# Hungarian translation of grilo-upnp-plugin
+# Copyright (C) 2013. Free Software Foundation, Inc.
+# This file is distributed under the same license as the grilo-plugins package.
+#
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2013, 2014.
+# Balázs Úr <urbalazs at gmail dot com>, 2014.
+# Balázs Úr <urbalazs@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: grilo-upnp-plugin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-17 11:36+0200\n"
+"PO-Revision-Date: 2014-05-22 22:25+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: ../src/grl-upnp.c:54
+#, c-format
+msgid "A source for browsing the UPnP server '%s'"
+msgstr "Bővítmény a(z) „%s” UPnP kiszolgáló tallózására"
+
+#: ../src/grl-upnp.c:1314 ../src/grl-upnp.c:1371
+msgid "Failed to browse"
+msgstr "Nem tallózható"
+
+#: ../src/grl-upnp.c:1434
+msgid "Failed to query"
+msgstr "A lekérés sikertelen"
+
+#: ../src/grl-upnp.c:1484
+msgid "Failed to resolve"
+msgstr "Nem sikerült feloldani"
+
+#: ../src/grl-upnp.c:1553
+#, c-format
+msgid "Unable to listen for changes in %s"
+msgstr "Nem lehet a változásokat figyelni ebben: %s"

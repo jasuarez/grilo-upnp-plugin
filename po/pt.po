@@ -1,0 +1,42 @@
+# grilo-upnp-plugin's Portuguese translation.
+# Copyright © 2013 grilo-plugins
+# This file is distributed under the same license as the grilo-plugins package.
+# Fernando Carvalho <phaetonkde@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grilo-upnp-plugin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-17 15:44+0200\n"
+"PO-Revision-Date: 2014-02-26 23:44+0100\n"
+"Last-Translator: Tiago S. <almosthumane@portugalmail.pt>\n"
+"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Project-Style: gnome\n"
+
+#: ../src/grl-upnp.c:54
+#, c-format
+msgid "A source for browsing the UPnP server '%s'"
+msgstr "Uma fonte para navegar no servidor UPnP '%s'"
+
+#: ../src/grl-upnp.c:1314 ../src/grl-upnp.c:1371
+msgid "Failed to browse"
+msgstr "Falha ao navegar"
+
+#: ../src/grl-upnp.c:1434
+msgid "Failed to query"
+msgstr "Falha ao consultar"
+
+#: ../src/grl-upnp.c:1484
+msgid "Failed to resolve"
+msgstr "Falha ao resolver"
+
+#: ../src/grl-upnp.c:1553
+#, c-format
+msgid "Unable to listen for changes in %s"
+msgstr "Incapaz de escutar por alterações em %s"
