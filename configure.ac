@@ -10,9 +10,9 @@ m4_define([prj_version], [0.2.1])
 
 AC_INIT([prj_name],
         [prj_version],
-        [https://github.com/grilofw/grilo-upnp-plugin/issues/new],
+        [https://github.com/jasuarez/grilo-upnp-plugin/issues/new],
         [prj_name],
-        [https://github.com/grilofw/grilo-upnp-plugin])
+        [https://github.com/jasuarez/grilo-upnp-plugin])
 
 AM_INIT_AUTOMAKE([foreign])
 
