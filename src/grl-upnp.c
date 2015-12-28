@@ -48,8 +48,6 @@ GRL_LOG_DOMAIN_STATIC(upnp_log_domain);
 
 /* --- Plugin information --- */
 
-#define PLUGIN_ID   UPNP_PLUGIN_ID
-
 #define SOURCE_ID_TEMPLATE    "grl-upnp-%s"
 #define SOURCE_DESC_TEMPLATE  _("A source for browsing the UPnP server '%s'")
 
@@ -203,9 +201,17 @@ grl_upnp_plugin_deinit (GrlPlugin *plugin)
   g_clear_object (&context_manager);
 }
 
-GRL_PLUGIN_REGISTER (grl_upnp_plugin_init,
-                     grl_upnp_plugin_deinit,
-                     PLUGIN_ID);
+GRL_PLUGIN_DEFINE (0, 3,
+		   UPNP_PLUGIN_ID,
+		   "UPnP",
+		   "A plugin for browsing UPnP servers",
+		   "Igalia S.L.",
+		   "0.3.0",
+		   "LGPL",
+		   "http://www.igalia.com",
+		   grl_upnp_plugin_init,
+		   grl_upnp_plugin_deinit,
+		   NULL);
 
 /* ================== UPnP GObject ================ */
 
@@ -341,7 +347,7 @@ container_changed_cb (GUPnPServiceProxy *proxy,
 
     token = g_strstrip (tokens[i]);
     if (token && *token != '\0') {
-      container = grl_media_box_new ();
+      container = grl_media_container_new ();
       grl_media_set_id (container, tokens[i]);
       g_ptr_array_add (changed_medias, container);
     }
@@ -1036,7 +1042,7 @@ build_media_from_didl (GrlMedia *content,
   } else {
 
     if (GUPNP_IS_DIDL_LITE_CONTAINER (didl_node)) {
-      media = grl_media_box_new ();
+      media = grl_media_container_new ();
     } else {
       if (!media) {
         class = gupnp_didl_lite_object_get_upnp_class (didl_node);
